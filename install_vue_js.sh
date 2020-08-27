@@ -2,6 +2,15 @@
 # Source:
 https://www.techiediaries.com/laravel/how-to-install-vuejs-in-laravel-6-7-by-example/
 
+In this quick tutorial, we'll learn how to install and use the Vue.js library in your Laravel 6 or Laravel 7 project using the laravel/ui package.
+
+#A Separate Laravel 7/6 Package for Vue.js Scaffolding
+The laravel/ui is a separate package that provides the UI scaffoldings for bootstrap, vue and react. Alongside with the auth scaffold for login and registration.
+
+Provided that you already have a Laravel project setup. Head over to your command-line interface and run the following command:
+
+> composer require laravel/ui
+
 #Adding Vue to your Laravel 7/6 Project
 After successfully installing the laravel/ui package, we can now add vue to our application.
 
